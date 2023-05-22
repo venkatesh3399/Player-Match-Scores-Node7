@@ -1,0 +1,15 @@
+GET http://localhost:2424/players/
+
+###
+GET http://localhost:2424/players/2/
+
+###
+PUT http://localhost:2424/players/6/
+Content-Type: appication/application/json
+
+{
+    "playerName" : "Raju"
+}
+
+###
+GET http://localhost:2424/players/5/matchs
